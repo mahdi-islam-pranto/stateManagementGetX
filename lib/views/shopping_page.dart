@@ -46,27 +46,13 @@ class ShoppingPage extends StatelessWidget {
                                     style: TextStyle(fontSize: 24)),
                               ],
                             ),
-
-                            // RaisedButton(
-                            //   onPressed: () {
-                            //     cartController
-                            //         .addToCart(controller.products[index]);
-                            //   },
-                            //   color: Colors.blue,
-                            //   textColor: Colors.white,
-                            //   child: Text('Add to Cart'),
-                            // ),
-                            // Obx(() => IconButton(
-                            //       icon: controller
-                            //               .products[index].isFavorite.value
-                            //           ? Icon(Icons.check_box_rounded)
-                            //           : Icon(Icons
-                            //               .check_box_outline_blank_outlined),
-                            //       onPressed: () {
-                            //         controller.products[index].isFavorite
-                            //             .toggle();
-                            //       },
-                            //     ))
+                            ElevatedButton(
+                              onPressed: () {
+                                // cartController
+                                //     .addToCart(controller.products[index]);
+                              },
+                              child: Text('Add to Cart'),
+                            ),
                           ],
                         ),
                       ),
